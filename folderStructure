@@ -9,5 +9,4 @@ touch $script_full_path/css/style.css
 touch $script_full_path/js/script.js
 cd  $script_full_path
 npm install --save-dev less
-
-exit
+exec sleep 2
