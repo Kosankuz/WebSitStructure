@@ -4,7 +4,10 @@ script_name=$0
 script_full_path=$(dirname "$0")
 
 touch  $script_full_path/index.html
-mkdir  $script_full_path/{css,js} 
-touch $script_full_path/css/style.css 
+mkdir  $script_full_path/{css,js}
+touch $script_full_path/css/style.css
 touch $script_full_path/js/script.js
+cd  $script_full_path
+npm install --save-dev less
+
 exit
